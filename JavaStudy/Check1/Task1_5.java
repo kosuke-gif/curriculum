@@ -35,24 +35,19 @@ public class Task1_5 {
         *     8 || 8 | 16 | 24 | 32 | 40 | 48 | 56 | 64 | 72 |
         *     9 || 9 | 18 | 27 | 36 | 45 | 54 | 63 | 72 | 81 |
         */
-        for(i=1;i<=9;i++)
-        {
-        System.out.print(i+" || ");
-        for(int j=1;j<=9;j++) 
-        {
-        if(i*j<10)
-        {
-        System.out.print(i*j+" | ");
+        for(int dan = 1; dan < 10; dan++){
+
+        System.out.print(dan +" || ");
+        
+        for(int count = 1; count <=10;count++){
+        System.out.print(dan * count + " | ");
         }
-        else
-        {
-        System.out.print(i*j+" | ");
-        }
-        } 
+        
         System.out.println(" ");
         }
+      }
+      
     }
-}
 
 
 
